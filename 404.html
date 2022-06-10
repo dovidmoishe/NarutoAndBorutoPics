@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Page Not Found</title>
+    <link rel="shortcut icon" href="images/naruto.jpg" type="image/x-icon" />
+    <style media="screen">
+      @import url("./modules/Akaya.css");
+      body {
+        background: #eceff1;
+        color: rgba(0, 0, 0, 0.87);
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      #message {
+        background: white;
+        max-width: 360px;
+        margin: 100px auto 16px;
+        padding: 32px 24px 16px;
+        border-radius: 3px;
+      }
+      #message h3 {
+        color: #888;
+        font-weight: normal;
+        font-size: 16px;
+        margin: 16px 0 12px;
+      }
+      #message h2 {
+        color: #ffa100;
+        font-weight: bold;
+        font-size: 16px;
+        margin: 0 0 8px;
+      }
+      #message h1 {
+        font-size: 22px;
+        font-weight: 300;
+        color: rgba(0, 0, 0, 0.6);
+        margin: 0 0 16px;
+      }
+      #message p {
+        line-height: 140%;
+        margin: 16px 0 24px;
+        font-size: 14px;
+      }
+      #message a {
+        display: block;
+        text-align: center;
+        background: #039be5;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+        padding: 16px;
+        border-radius: 4px;
+      }
+      #message,
+      #message a {
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      }
+      #load {
+        color: rgba(0, 0, 0, 0.4);
+        text-align: center;
+        font-size: 13px;
+      }
+      @media (max-width: 600px) {
+        body,
+        #message {
+          margin-top: 0;
+          background: white;
+          box-shadow: none;
+        }
+        body {
+          border-top: 16px solid #ffa100;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+      .message-blue {
+        position: relative;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: #a8ddfd;
+        width: 200px;
+        height: 50px;
+        text-align: left;
+        font: 400 0.9em "Akaya", cursive;
+        border: 1px solid #97c6e3;
+        border-radius: 10px;
+      }
+      .message-content {
+        padding: 0;
+        margin: 0;
+      }
+      .message-blue::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 15px solid #a8ddfd;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        top: 0;
+        left: -15px;
+      }
+      .message-blue::before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 17px solid #97c6e3;
+        border-left: 16px solid transparent;
+        border-right: 16px solid transparent;
+        top: -1px;
+        left: -17px;
+      }
+      .image {
+        position: relative;
+      }
+      .message-blue {
+        bottom: 5.5rem;
+        left: 7.5rem;
+      }
+      @media (min-width: 600px) {
+        .message-blue {
+          bottom: 6rem;
+          left: 10rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="message">
+      <div class="image">
+        <img src="./images/boruto.jpg" style="height: 50vh" />
+        <div class="message-blue">
+          <p class="message-content">
+            Sorry dude/dudet i can't find the page you are looking for
+          </p>
+        </div>
+      </div>
+
+      <h2>404</h2>
+      <h1>Page Not Found</h1>
+      <p>
+        The specified file was not found on this website. Please check the URL
+        for mistakes and try again.
+      </p>
+    </div>
+  </body>
+</html>
